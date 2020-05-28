@@ -29,9 +29,8 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          © {new Date().getFullYear()} Apache License 2.0,{` `}
+          <a href="https://www.gatsbyjs.org">Built by Jordan Liu</a>
         </footer>
       </div>
     </div>

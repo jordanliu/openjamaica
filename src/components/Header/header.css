@@ -1,6 +1,7 @@
 .header-wrapper {
   display: flex;
-  flex-direction: row;
+
+  justify-content: space-between;
 }
 
 .header-wrapper a {
@@ -8,4 +9,21 @@
   color: black;
   font-size: 24px;
   font-weight: bold;
+}
+
+.header-wrapper .logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-wrapper .star {
+  margin-top: 15px;
+  display: flex;
+  float: right;
+  cursor: pointer;
+  transition: fill 0.4s ease;
+}
+
+.header-wrapper .star:hover {
+  fill: black;
 }

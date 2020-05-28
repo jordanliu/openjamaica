@@ -23,3 +23,9 @@ footer {
   bottom: 0;
   height: 60px;
 }
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
