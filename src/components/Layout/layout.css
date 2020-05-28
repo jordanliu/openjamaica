@@ -1,0 +1,25 @@
+/*-------- Global --------*/
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  font-size: 100%;
+  vertical-align: baseline;
+  background: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  padding: 3em 9em 0 9em;
+}
+
+.title {
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+}
