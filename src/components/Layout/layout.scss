@@ -8,12 +8,8 @@
   font-family: "Roboto", sans-serif;
 }
 
-.wrapper {
-  padding: 3em 9em 0 9em;
-}
-
 .title {
-  font-size: 36px;
+  font-size: 24px;
   text-align: center;
   font-weight: bold;
 }
@@ -22,10 +18,59 @@ footer {
   position: absolute;
   bottom: 0;
   height: 60px;
+  font-size: 14px;
 }
 
 footer a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+.wrapper {
+  padding: 1.5em 1.5em 0 1.5em;
+  margin: 0;
+  background-color: green;
+}
+
+.title {
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 992px) {
+  .wrapper {
+    padding: 3em 9em 0 9em;
+  }
+
+  .title {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    margin: 0;
+    background-color: red;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
 }
