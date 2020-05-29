@@ -9,6 +9,7 @@ const CardWrapper = () => {
       <Card />
       <Card />
       <Card />
+      <Card />
     </div>
   )
 }

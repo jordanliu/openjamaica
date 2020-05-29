@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()} Apache License 2.0,{` `}
-          <a href="https://www.gatsbyjs.org">Built by Jordan Liu</a>
+          <a href="https://github.com/jordanliu">Built by Jordan Liu</a>
         </footer>
       </div>
     </div>

@@ -6,6 +6,8 @@
   vertical-align: baseline;
   background: white;
   font-family: "Roboto", sans-serif;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .title {
@@ -17,7 +19,7 @@
 footer {
   margin-top: 35px;
   bottom: 0;
-  height: 50px;
+  height: 20px;
   font-size: 12px;
 }
 
@@ -27,7 +29,7 @@ footer a {
   font-weight: bold;
 }
 .wrapper {
-  padding: 1.5em 1.5em 0 1.5em;
+  padding: 1.5em 1em;
   margin: 0;
   //background-color: green;
 }
@@ -50,7 +52,6 @@ footer a {
   }
 
   footer {
-    position: absolute;
     bottom: 0;
     height: 60px;
   }
@@ -74,7 +75,6 @@ footer a {
   }
 
   footer {
-    position: absolute;
     bottom: 0;
     height: 60px;
     font-size: 14px;

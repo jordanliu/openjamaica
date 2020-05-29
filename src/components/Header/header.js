@@ -9,6 +9,7 @@ const Header = ({ siteTitle }) => (
     <div className="header-wrapper">
       <div className="logo" aria-label="Logo">
         <img className="bird" src={Bird} alt="Logo" />
+
         <h1>
           <Link to="/">{siteTitle}</Link>
         </h1>
@@ -17,12 +18,12 @@ const Header = ({ siteTitle }) => (
       <div className="star">
         <iframe
           src="https://ghbtns.com/github-btn.html?user=jordanliu&repo=openjamaica&type=star&count=true"
-          frameborder="0"
+          frameBorder="0"
           scrolling="0"
           width="150"
           height="20"
           title="GitHub"
-        ></iframe>
+        />
       </div>
     </div>
   </header>

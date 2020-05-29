@@ -1,11 +1,11 @@
 .card {
   display: flex;
-  width: 340px;
+  width: 325px;
   height: 563px;
   background-color: #ffffff;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
   border-radius: 2px;
-  margin: 20px;
+  margin-bottom: 25px;
 
   .card-info {
     padding: 15px;
@@ -22,6 +22,7 @@
 
 .card-wrapper {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -31,7 +32,10 @@
 @media only screen and (min-width: 992px) {
   .card {
     width: 344px;
+    min-width: 344px;
     height: 563px;
+    margin: 20px;
+    flex-basis: 25%;
   }
   .card-wrapper {
     flex-direction: row;
@@ -43,6 +47,7 @@
   .card {
     width: 344px;
     height: 563px;
+    margin: 20px;
   }
   .card-wrapper {
     flex-direction: row;
