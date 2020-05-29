@@ -7,13 +7,13 @@ import "./header.scss"
 const Header = ({ siteTitle }) => (
   <header>
     <div className="header-wrapper">
-      <div className="logo" aria-label="Logo">
-        <img className="bird" src={Bird} alt="Logo" />
+      <Link to="/">
+        <div className="logo" aria-label="Logo">
+          <img className="bird" src={Bird} alt="Logo" />
 
-        <h1>
-          <Link to="/">{siteTitle}</Link>
-        </h1>
-      </div>
+          <h1>{siteTitle}</h1>
+        </div>
+      </Link>
 
       <div className="star">
         <iframe
