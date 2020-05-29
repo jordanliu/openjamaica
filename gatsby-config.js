@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Open Jamaica`,
-    description: `Resources for Jamaican developers.`,
+    description: `Resources for Jamaican developers, curated by Jamaicans - communities, organizations, open source projects, learning resources.`,
     author: `@jordanliu`,
   },
   plugins: [
