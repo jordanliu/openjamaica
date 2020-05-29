@@ -31,11 +31,10 @@
 /* Desktop */
 @media only screen and (min-width: 992px) {
   .card {
-    width: 344px;
+    max-width: 344px;
     min-width: 344px;
     height: 563px;
     margin: 20px;
-    flex-basis: 25%;
   }
   .card-wrapper {
     flex-direction: row;
