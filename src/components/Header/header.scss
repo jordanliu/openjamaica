@@ -16,18 +16,16 @@
   }
 
   .star {
-    margin-top: 15px;
-    display: flex;
-    cursor: pointer;
+    margin-top: 10px;
   }
 
   .star > iframe {
-    position: absolute;
+    width: 100px;
     right: 0;
   }
 }
 
-/* Mobile */
+/* Desktop */
 @media only screen and (min-width: 992px) {
   .header-wrapper {
     display: flex;
@@ -48,8 +46,11 @@
 
     .star {
       margin-top: 15px;
-      display: flex;
-      cursor: pointer;
+    }
+
+    .star > iframe {
+      width: 100px;
+      right: 0;
     }
   }
 }

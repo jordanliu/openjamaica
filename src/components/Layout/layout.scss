@@ -36,9 +36,11 @@ footer a {
   font-size: 24px;
 }
 
+/* Desktop */
 @media only screen and (min-width: 992px) {
   .wrapper {
     padding: 3em 9em 0 9em;
+    background-color: purple !important;
   }
 
   .title {
@@ -60,9 +62,10 @@ footer a {
   }
 }
 
+/* Tablet */
 @media only screen and (min-width: 600px) {
   .wrapper {
-    margin: 0;
+    padding: 2em 5em 0 5em;
     background-color: red;
   }
 
