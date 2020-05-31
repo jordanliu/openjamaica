@@ -1,11 +1,24 @@
 {
-  "resources": [
+  "data": [
     {
       "card": [
         {
-          "title": "Test",
-          "alts": [
+          "id": 1,
+          "title": "Communities",
+          "items": [
             {
+              "id": 1,
+              "title": "test",
+              "link": "test"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Organizations",
+          "items": [
+            {
+              "id": 1,
               "title": "test",
               "link": "test"
             }

@@ -1,14 +1,14 @@
 import React from "react"
 import "./card.scss"
 
-const Card = () => {
+const Card = ({ data }) => {
   return (
     <div className="card">
       <div className="card-info">
-        <h1 className="card-title">Title</h1>
-        <li>Test</li>
-        <li>Test</li>
-        <li>Test</li>
+        <h1 className="card-title">{data.title}</h1>
+        {data.items.map((item) => (
+          <li key={item.id}>{item.title}</li>
+        ))}
       </div>
     </div>
   )
