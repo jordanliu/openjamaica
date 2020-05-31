@@ -1,0 +1,17 @@
+{
+  "resources": [
+    {
+      "card": [
+        {
+          "title": "Test",
+          "alts": [
+            {
+              "title": "test",
+              "link": "test"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

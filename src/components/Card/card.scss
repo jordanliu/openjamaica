@@ -18,6 +18,18 @@
       font-size: 24px;
     }
   }
+
+  li {
+    font-size: 14px;
+    padding: 10px 0;
+    padding-left: 10px;
+    font-weight: bold;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    width: 300px;
+    list-style: none;
+  }
 }
 
 .card-wrapper {

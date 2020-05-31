@@ -6,6 +6,9 @@ const Card = () => {
     <div className="card">
       <div className="card-info">
         <h1 className="card-title">Title</h1>
+        <li>Test</li>
+        <li>Test</li>
+        <li>Test</li>
       </div>
     </div>
   )
