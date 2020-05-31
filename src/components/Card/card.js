@@ -7,7 +7,9 @@ const Card = ({ data }) => {
       <div className="card-info">
         <h1 className="card-title">{data.title}</h1>
         {data.items.map((item) => (
-          <li key={item.id}>{item.title}</li>
+          <a href={item.link}>
+            <li key={item.id}>{item.title}</li>
+          </a>
         ))}
       </div>
     </div>

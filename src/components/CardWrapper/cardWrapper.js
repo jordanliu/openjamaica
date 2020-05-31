@@ -9,7 +9,7 @@ const CardWrapper = () => {
   return (
     <div className="card-wrapper">
       {cardData.map((data) =>
-        data.card.map((data) => <Card key={data.id} data={data} />)
+        data.cards.map((card) => <Card key={card.id} data={card} />)
       )}
     </div>
   )

@@ -14,6 +14,8 @@
   font-size: 24px;
   text-align: center;
   font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 25px;
 }
 
 footer {
@@ -34,11 +36,6 @@ footer a {
   //background-color: green;
 }
 
-.title {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
 /* Desktop */
 @media only screen and (min-width: 992px) {
   .wrapper {
@@ -54,7 +51,7 @@ footer a {
 
   footer {
     bottom: 0;
-    height: 60px;
+    height: 20px;
   }
 
   footer a {
