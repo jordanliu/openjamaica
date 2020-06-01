@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()} Apache License 2.0,{` `}
+          © {new Date().getFullYear()} MIT License,{` `}
           <a href="https://github.com/jordanliu">Built by Jordan Liu</a>
         </footer>
       </div>
