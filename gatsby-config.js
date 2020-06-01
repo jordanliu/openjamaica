@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Open Jamaica - Developer resources`,
+    title: `Open Jamaica`,
     description: `Resources for Jamaican developers, curated by Jamaicans - communities, organizations, open source projects, learning resources.`,
     author: `@jordanliu`,
   },
