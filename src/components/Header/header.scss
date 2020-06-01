@@ -15,6 +15,12 @@
     flex-direction: row;
   }
 
+  img {
+    margin: 0px;
+    width: 35px;
+    height: 35px;
+  }
+
   .star {
     margin-top: 7px;
   }
@@ -42,6 +48,12 @@
     .logo {
       display: flex;
       flex-direction: row;
+    }
+
+    img {
+      margin-top: 10px;
+      width: 40px;
+      height: 40px;
     }
 
     .star {

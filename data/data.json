@@ -3,122 +3,107 @@
     {
       "cards": [
         {
-          "id": 1,
           "title": "Communities",
           "items": [
             {
-              "id": 1,
               "title": "Facebook Dev Circle: Kingston",
               "link": "https://chat.whatsapp.com/JERWTM869a645qQ7OrhO4L"
             },
             {
-              "id": 2,
               "title": "GDG Kingston",
               "link": "https://www.meetup.com/GDG-Kingston/"
             },
             {
-              "id": 3,
               "title": "KingstonJS",
               "link": "https://spectrum.chat/kingstonjs"
             },
             {
-              "id": 4,
               "title": "Jamaican Developers",
               "link": "https://jamaicandevelopers.com/"
             },
             {
-              "id": 5,
               "title": "Women Who Code, Kingston",
               "link": "https://www.meetup.com/WomenWhoCodeKingston/"
             },
             {
-              "id": 6,
               "title": "WordPress, Kingston",
               "link": "https://www.meetup.com/Kingston-WordPress-Meetup/"
             },
             {
-              "id": 7,
               "title": "Python, Jamaica",
               "link": "https://www.meetup.com/PythonJamaica/"
+            },
+            {
+              "title": "Caribbean Cyber Support Team",
+              "link": "https://caribbeancst.org/"
+            },
+            {
+              "title": "Women in InfoSec, Caribbean",
+              "link": "https://wiscaribbean.org/"
             }
           ]
         },
         {
-          "id": 2,
           "title": "Organizations",
           "items": [
             {
-              "id": 1,
               "title": "Palisadoes",
               "link": "http://palisadoes.org/"
             },
             {
-              "id": 2,
               "title": "Jamaica Computer Society",
               "link": "http://www.myjcs.info/"
             },
             {
-              "id": 3,
               "title": "Next Gen Creators",
               "link": "http://nextgencreators.org/"
+            },
+            {
+              "title": "Youth Can Do I.T.",
+              "link": "https://www.instagram.com/youthcandoit/"
             }
           ]
         },
         {
-          "id": 3,
           "title": "Job Boards",
           "items": [
             {
-              "id": 1,
               "title": "Caribbean Jobs",
               "link": "https://www.caribbeanjobs.com/Jamaica"
             },
             {
-              "id": 2,
               "title": "Plex Job",
               "link": "https://www.plexjob.com/"
             },
             {
-              "id": 3,
               "title": "Gleaner Classifieds",
               "link": "http://gleanerclassifieds.com/showads/section/Employment-10093"
             },
             {
-              "id": 4,
               "title": "LinkedIn Jobs",
               "link": "https://www.linkedin.com/jobs/?originalSubdomain=jm"
             }
           ]
         },
         {
-          "id": 4,
           "title": "Open Source Projects",
           "items": [
             {
-              "id": 1,
               "title": "Palisadoes Foundation",
               "link": "https://github.com/PalisadoesFoundation"
             }
           ]
         },
         {
-          "id": 5,
-          "title": "Learning Resources",
+          "title": "Roadmap",
           "items": [
             {
-              "id": 1,
-              "title": "JavaScript",
-              "link": "http://palisadoes.org/"
+              "title": "Learn to become a Frontend Developer",
+              "link": "https://roadmap.sh/frontend"
             },
             {
-              "id": 2,
-              "title": "Python",
-              "link": "http://www.myjcs.info/"
-            },
-            {
-              "id": 3,
-              "title": "Java",
-              "link": "http://nextgencreators.org/"
+              "title": "Learn to become a Backend Developer",
+              "link": "https://roadmap.sh/backend"
             }
           ]
         }
