@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
     <div className="header-wrapper">
       <Link to="/">
         <div className="logo" aria-label="Logo">
-          <Bird className="bird" src={Bird} alt="Logo" />
+          <Bird className="bird" src={Bird} alt="Logo" type="image/svg+xml" />
           <h1>{siteTitle}</h1>
         </div>
       </Link>
