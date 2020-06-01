@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Bird from "../../images/bird.svg"
+import Bird from "../../../assets/bird.svg"
 import "./header.scss"
 
 const Header = ({ siteTitle }) => (
@@ -9,8 +9,7 @@ const Header = ({ siteTitle }) => (
     <div className="header-wrapper">
       <Link to="/">
         <div className="logo" aria-label="Logo">
-          <img className="bird" src={Bird} alt="Logo" />
-
+          <Bird className="bird" src={Bird} alt="Logo" />
           <h1>{siteTitle}</h1>
         </div>
       </Link>
