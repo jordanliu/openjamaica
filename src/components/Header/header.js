@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Bird from "../../images/bird_logo.svg"
-import "./header.scss"
+import "./Header.scss"
 
 const Header = ({ siteTitle }) => (
   <header>

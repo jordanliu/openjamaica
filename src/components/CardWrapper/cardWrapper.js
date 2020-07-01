@@ -1,6 +1,6 @@
 import React from "react"
-import Card from "../Card/card"
-import "../Card/card.scss"
+import Card from "../Card/Card"
+import "../Card/Card.scss"
 import data from "../../../data/data.json"
 import { v4 as uuidv4 } from "uuid"
 

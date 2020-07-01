@@ -1,5 +1,5 @@
 import React from "react"
-import "./card.scss"
+import "./Card.scss"
 import { v4 as uuidv4 } from "uuid"
 
 const Card = ({ data }) => {
